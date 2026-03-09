@@ -13,8 +13,8 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <article className="pt-9">
-      {/* <Navigation /> */}
+    <article className="pt-6 sm:pt-9">
+      <Navigation />
       <Header />
       <Sponsors />
       <HowToGrow />
