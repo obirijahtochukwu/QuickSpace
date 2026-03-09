@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #141f39;
+  --color-secondary: #4f4f4f;
+  --color-muted: #ececec;
+  --color-gray: #b4b6c4;
+  --color-danger: #cb5b66;
+  --color-success: #27d692;
+  --color-button: #3921f5;
+  --color-dark-blue: #141f39;
+
+  --font-primary: "Space Grotesk";
+  --font-secondary: "Inter";
+  --font-p: "Roboto";
+  --text-size-xxs: "10px";
+}
+
+button {
+  cursor: pointer;
+}
