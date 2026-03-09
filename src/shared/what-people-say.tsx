@@ -23,7 +23,7 @@ export default function WhatPeopleSay() {
   ];
 
   return (
-    <article className="flex flex-col items-center text-center max-w-7xl px-9 py-20 xl:py-30 mx-auto bg-white/60">
+    <article className="flex flex-col items-center text-center max-w-7xl px-4 sm:px-9 py-20 xl:py-30 mx-auto bg-white/60">
       <div className=" font-bold font-primary text-3xl xl:text-4xl text-primary leading-11">
         What People Say
       </div>
@@ -32,14 +32,14 @@ export default function WhatPeopleSay() {
         facilisis augue mollis suscipit.
       </div>
 
-      <section className="mt-12 xl:mt-24 flex justify-between gap-4 xl:gap-11.5">
+      <section className="mt-12 xl:mt-24 grid grid-cols-1 sm:flex justify-between gap-4 xl:gap-11.5">
         {list.map((item) => (
-          <div className=" w-full xl:w-93 h-72 xl:h-111 bg-white odd:hover:shadow-[0px_34px_104px_0px_#12161C1A] duration-300 even:shadow-[0px_34px_104px_0px_#12161C1A] flex flex-col justify-between items-center text-center px-4 py-7 xl:p-8.5">
+          <div className=" w-full xl:w-93 h-72 xl:h-111 bg-white odd:hover:shadow-[0px_34px_104px_0px_#12161C1A] duration-300 sm:odd:shadow-none shadow-[0px_34px_104px_0px_#12161C1A] flex flex-col justify-between items-center text-center px-4 py-7 xl:p-8.5">
             <img
               src={item.img}
               className="h-14 w-14 xl:h-22.5 xl:w-22.5 rounded-full bg-muted"
             />
-            <div className=" font-normal text-xs xl:text-lg font-secondary text-secondary">
+            <div className=" font-normal text-sm sm:text-xs xl:text-lg font-secondary text-secondary">
               {item.text}
             </div>
             <div>

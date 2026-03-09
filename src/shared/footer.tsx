@@ -3,12 +3,12 @@ import { Icons } from "./icons";
 
 export default function Footer() {
   return (
-    <footer className="h-126 w-full bg-dark-blue text-white">
-      <main className="max-w-7xl px-9 pt-29 mx-auto">
-        <div className="flex  justify-between">
+    <footer className="sm:h-126 w-full bg-dark-blue text-white">
+      <main className="max-w-7xl px-4 sm:px-9 pt-10 sm:pt-29 mx-auto">
+        <div className="flex max-sm:flex-col justify-between">
           <section className=" w-90.5">
-            <Icons.whiteLogo />
-            <div className=" text-base font-normal font-secondary text-gray leading-6.5 mt-8 mb-6">
+            <Icons.whiteLogo className=" max-sm:w-40" />
+            <div className=" text-sm sm:text-base font-normal font-secondary text-gray leading-6.5 sm:mt-8 mb-3 sm:mb-6">
               Phasellus pulvinar porta turpis sit amet <br /> facilis sapien
               bibendum eu praesent massa.
             </div>
@@ -24,7 +24,7 @@ export default function Footer() {
                 info@example.com
               </div>
             </div>
-            <div className="flex items-center gap-5 mt-6">
+            <div className="flex items-center gap-3 sm:gap-5 mt-3 sm:mt-6">
               <img
                 src="public/media/footer/image 01 (2).png"
                 alt=""
@@ -38,7 +38,7 @@ export default function Footer() {
             </div>
           </section>
 
-          <section className="mt-6.5 grid grid-cols-3  font-secondary font-normal text-base">
+          <section className="mt-10 sm:mt-6.5 grid grid-cols-2 sm:grid-cols-3 gap-y-8 font-secondary font-normal text-base">
             {list.map((item) => (
               <div className=" h-44 flex flex-col justify-between">
                 <div className="">{item.title}</div>
@@ -52,7 +52,7 @@ export default function Footer() {
           </section>
         </div>
 
-        <section className=" flex items-center gap-6 mt-11">
+        <section className="max-sm:pb-5 flex items-center gap-6 mt-11">
           <div className=" font-normal text-sm text-gray font-secondary mr-auto">
             © All Right Reserved
           </div>

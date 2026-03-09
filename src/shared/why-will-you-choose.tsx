@@ -25,15 +25,17 @@ export default function WhyWillYouChoose() {
     },
   ];
   return (
-    <article className="max-w-7xl px-9 mx-auto mt-30 flex flex-col items-center">
-      <div className=" text-center font-bold font-primary text-primary text-4xl left-11">
-        Why Will You Choose Our <br /> Application
+    <article className="max-w-7xl px-4 sm:px-9 mx-auto mt-30 flex flex-col sm:items-center">
+      <div className=" sm:text-center font-bold font-primary text-primary text-3xl sm:text-4xl left-11">
+        Why Will You Choose <br className=" sm:hidden" /> Our{" "}
+        <br className=" max-sm:hidden" /> Application
       </div>
-      <div className="mt-2 font-normal font-secondary text-base text-primary leading-6 text-center">
+      <div className="mt-2 font-normal font-secondary text-base text-primary leading-6 sm:text-center">
         Class aptent taciti sociosqu ad litora torquen conubia nostramase <br />
         inceptos himenaeo. Phasellus metus nisl euismod eget lorem.
       </div>
-      <section className=" mt-9">
+
+      <section className=" mt-9 max-sm:hidden">
         <div className=" h-[515px] w-[515px] border border-dashed rounded-full border-secondary/30 p-15 relative">
           <Comment
             description="Karen change project info on Project Homepage"
@@ -79,9 +81,9 @@ export default function WhyWillYouChoose() {
         </div>
       </section>
 
-      <section className="mt-24 flex justify-between gap-4 xl:gap-7.5">
+      <section className="mt-10 sm:mt-24 grid grid-cols-1 sm:flex justify-between gap-4 xl:gap-7.5">
         {list.map((item, index) => (
-          <div className="h-60 xl:h-81.5 w-56 xl:w-67.5 bg-white shadow-[0px_4.32px_64.87px_0px_#00000014] flex flex-col items-center justify-center text-center p-4 max-lg:last:hidden">
+          <div className="h-54 sm:h-60 xl:h-81.5 w-full sm:w-56 xl:w-67.5 bg-white shadow-[0px_4.32px_64.87px_0px_#00000014] flex flex-col items-center justify-center text-center p-4 max-lg:last:hidden">
             <img
               src={item.img}
               alt=""

@@ -21,17 +21,17 @@ export default function HowToGrow() {
   ];
 
   return (
-    <section className="max-w-7xl px-9 mx-auto my-20 xl:my-30 flex flex-col items-center">
-      <div className=" font-bold font-primary text-4xl text-primary">
+    <section className="max-w-7xl px-4 sm:px-9 mx-auto my-20 xl:my-30 flex flex-col items-center max-sm:text-center">
+      <div className=" font-bold font-primary text-3xl sm:text-4xl text-primary">
         How To Grow Your Business
       </div>
-      <div className="mt-4 xl:mt-5 font-secondary text-base font-normal text-center text-primary">
+      <div className=" sm:mt-4 xl:mt-5 font-secondary text-base font-normal text-center text-secondary sm:text-primary">
         Class aptent taciti sociosqu ad litora torquen conubia nostramase <br />
         inceptos himenaeo. Phasellus metus nisl euismod eget lorem.
       </div>
-      <main className="w-full mt-11 grid grid-cols-3 gap-4 xl:gap-7.5">
+      <main className="w-full mt-11 grid grid-cols-1 sm:grid-cols-3 gap-4 xl:gap-7.5">
         {list.map((item) => (
-          <section className="h-62 xl:h-81.5 w-full flex flex-col xl:justify-between items-center pt-10 xl:pt-16 p-7 xl:p-14 shadow-[0px_4.32px_64.87px_0px_#00000014]">
+          <section className="h-52 sm:h-62 xl:h-81.5 w-full flex flex-col xl:justify-between items-center pt-10 xl:pt-16 p-7 xl:p-14 shadow-[0px_4.32px_64.87px_0px_#00000014]">
             <div>
               <img
                 src={`/media/HowToGrow/${item.image}.png`}

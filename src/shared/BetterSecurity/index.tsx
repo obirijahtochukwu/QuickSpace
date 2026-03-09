@@ -4,7 +4,7 @@ import Deals from "./deals";
 
 export default function BetterSecurity() {
   return (
-    <article className="max-w-7xl px-9 mx-auto flex items-center">
+    <article className="max-w-7xl px-4 sm:px-9 mx-auto flex items-center">
       <section>
         <div className=" font-bold font-primary text-primary text-2xl xl:text-4xl leading-8 xl:leading-12 mb-1.5 xl:mb-2">
           Better Security To Better <br /> Protection An Experience <br /> Of
@@ -30,7 +30,7 @@ export default function BetterSecurity() {
         </div>
       </section>
 
-      <section className="w-110.5 xl:w-2xl ml-auto flex items-center">
+      <section className="w-110.5 xl:w-2xl ml-auto hidden sm:flex items-center">
         <div className=" w-47 xl:w-70 h-36 xl:h-54 relative -right-4.5 xl:-right-7 z-1 bg-white shadow-[0px_2.52px_37.8px_0px_#00000014]">
           <section className="">
             <div className="flex items-center h-5.5 xl:h-8.5 px-2 xl:px-2.5 justify-between border-b !border-muted">

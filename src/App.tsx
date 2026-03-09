@@ -17,12 +17,12 @@ function App() {
       {/* <Navigation /> */}
       <Header />
       <Sponsors />
-      {/* <HowToGrow /> */}
-      {/* <BetterSecurity /> */}
-      {/* <WhyWillYouChoose /> */}
-      {/* <WeHelp /> */}
-      {/* <WhatPeopleSay /> */}
-      {/* <Footer /> */}
+      <HowToGrow />
+      <BetterSecurity />
+      <WhyWillYouChoose />
+      <WeHelp />
+      <WhatPeopleSay />
+      <Footer />
     </article>
   );
 }
