@@ -3,7 +3,7 @@ import { Icons } from "./icons";
 
 export default function Header() {
   return (
-    <article className="mt-16 mb-13 xl:my-20 max-w-7xl px-4 xl:px-9 mx-auto flex max-sm:flex-col max-xl:justify-center gap-6 xl:gap-18">
+    <article className="mt-16 mb-13 xl:my-20 max-w-7xl px-4 xl:px-9 mx-auto flex max-sm:flex-col max-xl:justify-center sm:gap-6 xl:gap-18">
       <section className="sm:w-sm lg:w-lg sm:h-92.5 xl:h-[551px] flex flex-col justify-center">
         <div className="max-sm:text-center text-3xl sm:text-[40px] sm:leading-12 xl:text-6xl font-bold font-primary text-primary whitespace-nowrap">
           Smart-Thinking & <br />
@@ -38,7 +38,7 @@ export default function Header() {
         </section>
       </section>
 
-      <section className="h-53.5 xl:h-80 max-sm:mx-auto w-88 xl:flex-1 relative z-10 flex flex-wrap gap-x-3 xl:gap-x-5">
+      <section className="h-53.5 xl:h-80 max-sm:mx-auto w-88 xl:flex-1 relative z-10 flex flex-wrap gap-x-3 xl:gap-x-5 max-sm:scale-85">
         <div className="bg-white rounded-lg w-34 xl:w-59 h-32 xl:h-55.5 p-2.5 xl:p-7">
           <section className="flex items-center gap-2 xl:gap-3">
             <div className=" grid place-items-center w-7.5 xl:w-11.5 h-8 xl:h-14 bg-button rounded-sm xl:rounded-lg">

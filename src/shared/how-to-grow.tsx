@@ -21,7 +21,7 @@ export default function HowToGrow() {
   ];
 
   return (
-    <section className="max-w-7xl px-4 sm:px-9 mx-auto max-sm:mt-56 my-20 xl:my-30 flex flex-col items-center max-sm:text-center">
+    <section className="max-w-7xl px-4 sm:px-9 mx-auto max-sm:mt-40 my-20 xl:my-30 flex flex-col items-center max-sm:text-center">
       <div className=" font-bold font-primary text-3xl sm:text-4xl text-primary">
         How To Grow Your Business
       </div>

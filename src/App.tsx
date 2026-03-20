@@ -13,7 +13,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <article className="pt-6 sm:pt-9">
+    <article className="pt-6 sm:pt-9 w-full overflow-x-hidden">
       <Navigation />
       <Header />
       <Sponsors />
