@@ -21,11 +21,11 @@ export default function HowToGrow() {
   ];
 
   return (
-    <section className="max-w-7xl px-4 sm:px-9 mx-auto my-20 xl:my-30 flex flex-col items-center max-sm:text-center">
+    <section className="max-w-7xl px-4 sm:px-9 mx-auto max-sm:mt-56 my-20 xl:my-30 flex flex-col items-center max-sm:text-center">
       <div className=" font-bold font-primary text-3xl sm:text-4xl text-primary">
         How To Grow Your Business
       </div>
-      <div className=" sm:mt-4 xl:mt-5 font-secondary text-base font-normal text-center text-secondary sm:text-primary">
+      <div className="max-sm:px-5 sm:mt-4 xl:mt-5 font-secondary text-base font-normal text-center text-secondary sm:text-primary">
         Class aptent taciti sociosqu ad litora torquen conubia nostramase <br />
         inceptos himenaeo. Phasellus metus nisl euismod eget lorem.
       </div>

@@ -3,17 +3,17 @@ import { Icons } from "./icons";
 
 export default function Header() {
   return (
-    <article className="mt-10 sm:mt-16 mb-13 xl:my-20 max-w-7xl px-4 xl:px-9 mx-auto flex max-sm:flex-col max-xl:justify-center gap-6 xl:gap-18">
+    <article className="mt-16 mb-13 xl:my-20 max-w-7xl px-4 xl:px-9 mx-auto flex max-sm:flex-col max-xl:justify-center gap-6 xl:gap-18">
       <section className="sm:w-sm lg:w-lg sm:h-92.5 xl:h-[551px] flex flex-col justify-center">
         <div className="max-sm:text-center text-3xl sm:text-[40px] sm:leading-12 xl:text-6xl font-bold font-primary text-primary whitespace-nowrap">
           Smart-Thinking & <br />
           Innovative Solution.
         </div>
-        <div className="max-sm:text-center mb-4 sm:my-4 lg:my-6 font-normal font-secondary text-xs lg:text-lg text-secondary">
+        <div className="max-sm:text-center mb-6 sm:my-4 lg:my-6 font-normal font-secondary text-xs lg:text-lg text-secondary">
           Class aptent taciti sociosqu ad litora torquent conubia nostrama
           inceptos himenaeos. Donec tristique nibh ipsum dignissim.
         </div>
-        <section className="flex items-center max-sm:justify-center gap-3.5 xl:gap-5 mb-4 xl:mb-6">
+        <section className="flex items-center max-sm:justify-center gap-3.5 xl:gap-5 mb-6 sm:mb-4 xl:mb-6">
           <button className=" grid place-items-center bg-button w-35 xl:w-52 h-10 xl:h-15 rounded-sm xl:rounded-lg text-white font-medium text-xs xl:text-base font-secondary hover:shadow-[0px_0px_0px_6px_#3921f540] duration-200">
             Discover More
           </button>
@@ -21,6 +21,7 @@ export default function Header() {
             Explore Service <Icons.arrow className="h-3 w-3" />
           </button>
         </section>
+
         <section className=" hidden sm:flex items-center gap-2 xl:gap-3">
           {[
             "Get 15 days free trial",
@@ -37,7 +38,7 @@ export default function Header() {
         </section>
       </section>
 
-      <section className="h-53.5 xl:h-80 w-88 xl:flex-1 relative z-10 flex flex-wrap gap-x-3 xl:gap-x-5">
+      <section className="h-53.5 xl:h-80 max-sm:mx-auto w-88 xl:flex-1 relative z-10 flex flex-wrap gap-x-3 xl:gap-x-5">
         <div className="bg-white rounded-lg w-34 xl:w-59 h-32 xl:h-55.5 p-2.5 xl:p-7">
           <section className="flex items-center gap-2 xl:gap-3">
             <div className=" grid place-items-center w-7.5 xl:w-11.5 h-8 xl:h-14 bg-button rounded-sm xl:rounded-lg">
